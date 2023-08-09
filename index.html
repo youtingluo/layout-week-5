@@ -9,8 +9,8 @@
       rel="stylesheet"
     />
     <title>index</title>
-    <script type="module" crossorigin src="/layout-week-5/assets/index-dac73012.js"></script>
-    <link rel="stylesheet" href="/layout-week-5/assets/index-4ec01575.css">
+    <script type="module" crossorigin src="/layout-week-5/assets/index-bd0fe710.js"></script>
+    <link rel="stylesheet" href="/layout-week-5/assets/index-70353208.css">
   </head>
   <body class="d-flex">
     <div class="dashboard bg-light w-25 min-vh-100 py-3 d-flex flex-column justify-content-between">
@@ -58,7 +58,7 @@
             <div class="card mb-3 p-5 border-0" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel">
               <div class="row g-4">
                 <div class="col-5">
-                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emir.jpeg?raw=true" class="img-fluid h-100" alt="emir 照片">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emir.jpeg?raw=true" class="img-fluid modal-image" alt="emir 照片">
                 </div>
                 <div class="col-7">
                   <div>
@@ -71,20 +71,25 @@
                         <li>Admin</li>
                         <li class="fs-4 fw-bold">Emir Wicks</li>
                         <li>emir.wicks@mail.com</li>
-                        <li class="d-flex justify-content-between">
-                          <span class="bg-light py-1 px-2">Verified</span>
-                          <span class="material-icons-outlined expand-modal cursor-point text-primary">
-                            expand_more
-                            </span>
-                        </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="card-footer p-0 bg-white border-0 text-end mt-5">
-                <button type="button" class="btn btn-outline-danger me-4">Deactivate</button>
-                <button type="button" class="btn btn-primary">Edit</button>
+              <div class="accordion accordion-flush col-7 ms-auto" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed p-2 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span class="bg-light py-1 px-2 text-dark">Verified</span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse mt-3 border-0" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="d-flex justify-content-between">
+                      <button type="button" class="btn btn-outline-danger px-5">Deactivate</button>
+                      <button type="button" class="btn btn-primary px-5">Edit</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
